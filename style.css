@@ -1,0 +1,179 @@
+/**
+ * Theme Name:     Astra Child
+ * Author:         Brainstorm Force
+ * Template:       astra
+ * Text Domain:	   astra-child
+ * Description:    Astra is fast, fully customizable &amp; beautiful WordPress theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated and is Native AMP ready so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL &amp; Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained &amp; Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!
+ */
+ 
+@font-face {
+    font-family: "ProximaNova-Bold";
+    src: url("./fonts/f697c472b2ad5a1ca383a63c349f3dd9.eot");
+    src: url("./fonts/f697c472b2ad5a1ca383a63c349f3dd9.eot?#iefix")format("embedded-opentype"),
+    url("./fonts/f697c472b2ad5a1ca383a63c349f3dd9.woff2")format("woff2"),
+    url("./fonts/f697c472b2ad5a1ca383a63c349f3dd9.woff")format("woff"),
+    url("./fonts/f697c472b2ad5a1ca383a63c349f3dd9.ttf")format("truetype"),
+    url("./fonts/f697c472b2ad5a1ca383a63c349f3dd9.svg#ProximaNova-Bold")format("svg");
+}
+
+.astra-shop-summary-wrap a h2 {
+    font-family: "ProximaNova-Bold" !important;
+} 
+
+.ast-advanced-headers-layout-2 .ast-advanced-headers-breadcrumb {
+    margin-top: 0px!important;
+}
+
+.menured > a{
+	color: red!important;
+}
+#content .ast-woocommerce-container div.product div.summary, .woocommerce .ast-woocommerce-container div.product div.summary, .woocommerce-page #content .ast-woocommerce-container div.product div.summary, .woocommerce-page .ast-woocommerce-container div.product div.summary {
+    border: 1px solid black!important;
+    padding: 20px!important;
+    border-radius: 5px!important;
+}
+.attachment-thumbnail{
+	border-radius: 15px!important;
+}
+
+.woocommerce-js div.product form.cart .button.single_add_to_cart_button {
+    padding: 20px 40px!important;
+}
+.woocommerce-js div.product form.cart div.quantity {
+    margin: 0.5em 1em 0em 0em!important;
+}
+.woocommerce-js ul.products li.product a.ast-loop-product__link {
+    display: inline-grid!important;
+}
+
+element.style {
+}
+.woocommerce-js div.product form.cart .button {
+    width: 100%!important;
+}
+
+
+.th-added-it {
+    background-color: #301934 !important;
+}
+
+.button-buy-now {
+    display: none !important;
+}
+
+/* TASSAWER ADDED */
+.th-hide-it,
+#outsideElement {
+    display: none;
+}
+
+button.thbt_btn,
+button.thbt_btn-reverse {
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    border: 2px solid #d247f8;
+    background-color: white;
+    color: #d247f8;
+}
+
+button.thbt_btn.checked,
+button.thbt_btn:hover,
+button.thbt_btn.disabled,
+button.thbt_btn-reverse:hover,
+button.thbt_btn-reverse.checked {
+    background-color: #d247f8;
+    color: white;
+}
+
+button.thbt_btn.checked:hover {
+    opacity: 0.5;
+}
+
+
+button.thbt_btn.disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.woobt-products .woobt-product {
+    border-bottom: none !important;
+    padding: 10px !important;
+}
+
+.woobt-products.woobt-products-layout-default {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.summary.entry-summary .single-product-category:nth-child(2) {
+    display: none !important;
+}
+.woocommerce-js div.product div.images .flex-control-thumbs li img{
+	opacity:1 !important;
+}
+@media screen and (max-width: 500px) {
+    h1.product_title.entry-title {
+        font-size: 1.2rem;
+    }
+	.woocommerce-js ul.products li.product,
+	.woocommerce-page ul.products li.product {
+		margin-bottom: 0em !important;
+		padding-bottom: 0em !important;
+	}
+	
+	.astra-shop-thumbnail-wrap {
+		margin: 0 !important;
+	}
+}
+.woolentor-product-quantity-label{
+	display:none !important;
+}
+h1.product_title.entry-title {
+	font-size: 1.2rem;
+}
+
+/* .woocommerce ul.products, .woocommerce-page ul.products {
+    column-gap: 10px !important;
+	grid-gap: 10px !important;
+	align-items: baseline !important;
+} */
+.ast-shop-toolbar-aside-wrap .woocommerce-ordering{
+	    text-align: center;
+}
+.ast-shop-toolbar-aside-wrap .woocommerce-ordering .orderby{
+	    border: 1px solid #d9d5d5;
+    border-radius: 11px;
+}
+
+@media (max-width:767px){
+	.ast-shop-toolbar-container{
+		margin-bottom:5px !important;
+	}
+}
+@media only screen and (max-device-width: 500px) {
+	.woocommerce ul.products img, .woocommerce-page ul.products img {
+		margin: 0px auto !important;
+	}
+	.woocommerce ul.products li.product .astra-shop-summary-wrap, .woocommerce-page ul.products li.product .astra-shop-summary-wrap, .woocommerce.ast-woocommerce-shop-page-list-style ul.products li.product .astra-shop-summary-wrap, .woocommerce-page.ast-woocommerce-shop-page-list-style ul.products li.product .astra-shop-summary-wrap {
+		padding: 0px !important;
+	}	
+	
+	.woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce-page ul.products li.product .woocommerce-loop-product__title, .wc-block-grid .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title {
+		font-size: 0.8rem !important;
+	}
+}
+
+
+.woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce-page ul.products li.product .woocommerce-loop-product__title, .wc-block-grid .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title {
+    font-size: 0.9rem;
+    text-transform: capitalize !important;
+}
+
+nav.woocommerce-pagination {
+    text-align: center;
+    margin-bottom: 30px;
+}
